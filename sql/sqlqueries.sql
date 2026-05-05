@@ -38,7 +38,7 @@ CREATE INDEX idx_customer ON dim.customer (customer_sk, customer_id);
 -SECURITY and access control
 CREATE ROLE quickcash_finance_team;
 
-CREATE USER finance WITH PASSWORD 'secure_finance';
+CREATE USER finance WITH PASSWORD '********';
 
 GRANT quickcashcash_finance_team TO finance;
 
